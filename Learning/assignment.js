@@ -27,3 +27,15 @@ if (markHigherBMI) {
 	console.log("John's BMI is higher than Mark's!");
 	console.log(`John's BMI (${bmiJohn}) is higher than Mark's (${bmiMark})`);
 }
+
+const jonas = {
+	firstName: "Jonas",
+	lastName: "Sexman",
+	birthYear: 1997,
+	age: () => {
+		return 2037 - this.birthYear;
+	},
+};
+
+console.log(jonas.age());
+console.log(typeof jonas.age);

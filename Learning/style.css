@@ -1,0 +1,27 @@
+body {
+    background-color: rgba(255, 81, 0, 0.329);
+    font-family: Arial;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.first {
+    color: red;
+}
+
+#your-name {
+    background-color: green;
+    border: 5px solid #444;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+#course-image {
+    width: 500px;
+}
